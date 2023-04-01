@@ -1,0 +1,69 @@
+nav {
+	background-color: #333;
+	color: white;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	margin: 0 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#organizacion {
+	background-color: lightblue;
+	padding: 20px;
+}
+
+#presentacion {
+	background-color: lightgreen;
+	padding: 20px;
+}
+
+#contacto {
+	background-color: lightyellow;
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+svg {
+	color: red;
+	margin: 0 auto;
+    width: 50px;
+    height: 50px;
+
+}
