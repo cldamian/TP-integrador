@@ -1,0 +1,22 @@
+header {
+  background-color: black;
+  display: block;
+  padding: 20px;
+  width: 100%;
+}  
+
+#empresa {
+  color: white;
+}
+
+
+nav {
+display: block;
+
+}
+
+#reclamo {
+  box-shadow: 30px 30px 30px 30px;
+  margin: 30px 0px 0px 300px;
+
+}
