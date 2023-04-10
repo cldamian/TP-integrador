@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
     background-color: black;
     display: block;
@@ -51,3 +52,58 @@ header {
   right: 300px;
 
 }
+=======
+header {
+    background-color: black;
+    display: block;
+    padding: 20px;
+    width: 100%;
+  }  
+  
+  #empresa a {
+      color: white;
+      cursor: pointer;
+      
+  }
+  
+  #empresa a:hover {
+    color: blue;
+    
+    
+  }
+  
+  nav {
+    display: block;
+    
+  }
+  
+
+
+#carousel1 img {
+    height: 30vmax;
+   
+
+  }
+
+#carousel1 h3 {
+  color: black;
+  font-size:  50px;
+
+}
+
+#footer {
+  background-color: black;
+  
+}
+
+#footer svg {
+  display: flex;
+  margin-right: 20px;
+
+}
+
+#footer li {
+  right: 300px;
+
+}
+>>>>>>> 108716300d8cf0bbd3742cffe9c39c43b1876638
