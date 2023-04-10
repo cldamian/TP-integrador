@@ -5,15 +5,23 @@ header {
   width: 100%;
 }  
 
-#empresa {
-  color: white;
+#empresa a {
+    color: white;
+    cursor: pointer;
+    
 }
 
+#empresa a:hover {
+  color: blue;
+  
+  
+}
 
 nav {
-display: block;
-
+  display: block;
+  
 }
+
 
 #reclamo {
   box-shadow: 30px 30px 30px 30px;
