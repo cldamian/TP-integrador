@@ -23,14 +23,11 @@
                   <li class="nav-item">
                     <a class="nav-link" href="organizacion.html">Organización</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="personal.html">Personal</a>
-                  </li>
-                  <li class="nav-item">
+                   <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="reclamo.html">Reclamo</a>
+                    <a class="nav-link" href="reclamo.html">Cotizar</a>
                   </li>
                   <div class="button-login">
                     <a name="" id="button-login" class="btn btn-primary" href="login.html" role="button">Login</a>
@@ -38,41 +35,42 @@
               </ul>
           </div>
       </div>
-  </nav>              
+  </nav>
 </header>
 
 
 <div class="container" id="reclamo">
-  <h1 class="text-center">Reclamo</h1>
-  <form class="col-sm-6 col-sm-offset-3" action="reclamacion.php" method="POST">
+  <div class="row">
+  <h1 class="text-center">Cotizar</h1>
+  <form class="col-sm-6 col-sm-offset-5" action="" method="POST">
     <div class="form-group">
-      <label>Nombre *</label>
-      <input type="text" class="form-control" placeholder="Ej. Cesar">
+      <label>Nombre</label>
+      <input type="text" class="form-control" placeholder="Ej. Cesar" required>
     </div>
     <div class="form-group">
-      <label>Apellido *</label>
-      <input type="text" class="form-control" placeholder="Ej. Aquino Maximiliano">
+      <label>Apellido</label>
+      <input type="text" class="form-control" placeholder="Ej. Aquino Maximiliano" required>
     </div>
     <div class="form-group">
-      <label>Dirección *</label>
+      <label>Dirección</label>
       <input type="text" class="form-control" placeholder="Ej. Av. Los Angeles 1025">
     </div>
            <div class="form-group">
-      <label>Correo electrónico *</label>
-      <input type="email" class="form-control" placeholder="Ej. nombre@correo.com">
+      <label>Correo electrónico</label>
+      <input type="email" class="form-control" placeholder="Ej. nombre@correo.com" required>
     </div>
     <div class="form-group">
-      <label>Teléfono alternativo *</label>
-      <input type="text" class="form-control" placeholder="Ej. 1 294-0008">
+      <label>Teléfono alternativo</label>
+      <input type="text" class="form-control" placeholder="Ej. 1 294-0008" required>
     </div>
     <div class="form-group">
       <label>Descripcion</label>
       <textarea class="form-control" rows="5"></textarea>
     </div>
-    <input type="submit" class="btn btn-block btn-lg btn-primary">
+    <input type="submit" class="btn btn-block btn-lg btn-primary" id="boton">
   </form>
   <p>&nbsp;</p>
-
+</div>
 </div>
 
 
