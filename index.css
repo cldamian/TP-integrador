@@ -14,6 +14,12 @@
   font-size: 16px;
 }
 
+.btn-primary:hover {
+  background-color: #227e71!important;
+  border-color: #ffffff!important;
+}
+
+
 #empresa a {
     color: white;
     cursor: pointer;
@@ -66,8 +72,7 @@ nav {
   font-style: oblique;
   font-family:inherit;
    padding: 80px;
-   padding-left: 600px;
-  -webkit-text-stroke: 0.1px black;   
+   -webkit-text-stroke: 0.1px black;   
    
 
   }
