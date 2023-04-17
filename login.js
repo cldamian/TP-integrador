@@ -1,19 +1,12 @@
 function enviarDatos() {
+    let hayErrores = validarCampos();
+    if (hayErrores === false) {
     let email = $("#email").val();
-    if(email.length == 0) {
-        alert('No has escrito nada en el usuario');
-        return;
-      }
     let password = $("#password").val();
-    if(password.length == 0) {
-        alert('No has escrito nada en password');
-        return;
-      }
     console.log(email);
     console.log(password);
 
-    
-     $.ajax({
+    $.ajax({
         method: "POST",
         url: "https://reqres.in/api/users",
         data: {
@@ -27,6 +20,26 @@ function enviarDatos() {
         console.log(objetoRespuesta);
         mostrarDatos(objetoRespuesta);
     })
+}
+}
+
+function validarCampos() {
+    let hayErrores = false;
+    if ($('#email').val() === '') {
+        $('#email-validacion').show();
+        hayErrores = true;
+    } else {
+        $('#email-validacion').hide();
+    }
+
+    if ($('#password').val() === '') {
+        $('#password-validacion').show();
+        hayErrores = true;
+    } else {
+        $('#password-validacion').hide();
+    }
+
+    return hayErrores;
 }
 
 function mostrarDatos(objetoRespuesta) {
