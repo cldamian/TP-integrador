@@ -1,5 +1,5 @@
 * {
-  font-family: 'Archivo',  sans-serif;
+  font-family:inherit;
 }
 
 
@@ -8,12 +8,32 @@
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-  background-color: #585557;
+  background-color: #22977a;
   border-color: #585557;
   color: white;
   font-family: 'Montserrat'!important;
   font-size: 16px;
 }
+
+.btn-primary:hover {
+  background-color: #227e71!important;
+  border-color: #ffffff!important;
+}
+
+
+.my-2 h1 {
+  color: #080101;
+  font-size: 40px;
+  font-weight:normal;
+}
+
+.my-2 p {
+  color:#227e71;
+  font-size: 20px;
+  font-weight:normal;
+
+}
+
 
 #empresa a {
     color: white;
@@ -34,11 +54,13 @@ nav {
 
 #carousel1 {
   width: 50%;
-  margin: 30px;
+  margin: 0px 50px 10px 500px;
   background-repeat: no-repeat;
   background-position-x: right;
-  
-
+  box-shadow: 0 0 20px rgba(0, 64, 64, 0.5);
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #carousel1 img {
@@ -52,6 +74,10 @@ font-size:  50px;
 
 }
 
+#carousel1 p {
+  color: #227e71;
+  font-stretch:expanded;
+}
 
 #footer {
 background-color: black;
@@ -79,11 +105,13 @@ right: 300px;
   overflow: hidden;
   transition: .5s;
   margin: 15px 20px;
+  
 }
 
 .card:hover {
   box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
   transform: translateY(-15px);
+  
 }
 
 .card .head {
@@ -97,7 +125,7 @@ right: 300px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: #0b6f72;
+  background: #22977a;
   bottom: 0;
 }
 
@@ -161,7 +189,7 @@ right: 300px;
 
 .card .contact a:hover {
   
-  background: #0b6164;
+  background: #22977a;
  
 }
 

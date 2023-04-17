@@ -41,36 +41,82 @@
     </div>
 </nav>
 
-  <div class="container">
-      <div class="title text-center">
-         <h1>Contacto</h1>
-       </div>
-  </div>
-
+<div class="container">
+  <div class="title text-center">
+     <h1>Contacto</h1>
+   </div>
+</div>
 </header>
 
-<main>
-
-  <div class="row" id="row-comunicacion">
-      <div class="container text-center py-5">
-          <div class="row">
-          <h2>Canales de comunicación Houseclass</h2>
-      
-          <div class="col-md-3 offset-md-3 text-center py-5" id="num" >
-              <img src="/Imagenes/ubicacion.png" alt="ubicacion" height="70px"><br>
-              <h3>Dirección</h3>
-              <h4>Av. Colón 2860, Mar del Plata, Bs.As.</h4>
+<section class="py-3" id="comunicacion">
+    <div class="container text-center py-5">
+        <div class="row">
+            <h2>Canales de comunicación Houseclass</h2>
+        
+      <div class="col-md-6 text-center py-5" id="num" ><br><br>
+          <img src="/Imagenes/ubicacion.png" alt="ubicacion" height="70px"><br>
+          <h3>Dirección</h3>
+          <h4>Av. Colón 2860, Mar del Plata, Bs.As.</h4><br><br><br>       
+          <a href="https://web.whatsapp.com/" class="link-underline link-underline-opacity-0"><img src="/Imagenes/whatsapp.png" alt="whatsapp" height="70px"></a><br>
+          <h3>Chat virtual</h3>
+          <h4>Whatsapp</h4>
+      </div>
+      <div class="col-md-6 text-center py-5" id="num" >
+        <section class="d-flex justify-content-center align-items-end">
+          <div class="card shadow col-10   p-4"> 
+              <div class="mb-4 d-flex justify-content-start align-items-center">
+                
+                  <h4 class="text-black">  <i class="bi bi-chat-left-quote"></i><strong> &nbsp; Contacto</strong></h4>
+              </div>
+              <div class="mb-1">
+                  <form id = "contacto" >
+                      <div class="mb-4 d-flex justify-content-between"> 
+                          <div>
+                              <label for="nombre"> <i class="bi bi-person-fill"></i></label>
+                              <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "Nombre" required>
+                              <div class="nombre text-danger "></div>
+                          </div>
+                          <div >
+                              <label for="apellido"> <i class="bi bi-person-bounding-box"></i></label>
+                              <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "Apellido" required>
+                              <div class="apellido text-danger"></div>
+                          </div>
+                      </div>
+                      <div class="mb-4">
+                          <label for="correo"><i class="bi bi-envelope-fill"></i></label>
+                          <input type="email" class="form-control" name="correo" id="correo" placeholder= "Correo" required>
+                          <div class="correo text-danger"></div>
+                          
+                      </div> 
+                      <div class="mb-4">
+                          <label for="sexo"><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
+                          <input type="radio" class="form-check-input"  name="sexo"  value="masculino" > Masculino
+                          <input type="radio" class="form-check-input" name="sexo"  value="femenino" > Femenino
+                          <div class="sexo text-danger"></div>
+                      </div>  
+                      <div class="mb-4">
+                          <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i></label>
+                          <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Mensaje"></textarea>
+                          <div class="mensaje text-danger"></div>
+                      </div> 
+                      
+                      <div class="mb-2">
+                          <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                              <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
+                          </button>
+                      </div> 
+                                
+                  </form>
+              </div>
           </div>
-          
-          <div class="col-md-3 text-center py-5" id="num">
-              <img src="/Imagenes/whatsapp.png" alt="whatsapp" height="70px"><br>
-              <h3>Chat virtual</h3>
-              <h4>Whatsapp</h4>
-          </div>
+      </section>
+      </div>
+    </div>
+</div>
+</div>
+</section>
 
-</main>
-
-<footer class="py-3 my-4">
+<footer class="py-3">
   <ul class="nav justify-content-center border-bottom  pb-3 mb-3">
    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">INICIO</a></li>
    <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-white">CONTACTO</a></li>
