@@ -87,9 +87,17 @@ footer {
     background-color: black;
 }
 #social {
-    color:#c9a401;
+    list-style-type: none;
   }
   
-  #social path {
+#social path {
     color: #227e71;
+  }
+
+  #footer svg {
+    display: flex;
+    margin-right: 10px;
+    width: 160px;
+    
+  
   }

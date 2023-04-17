@@ -166,19 +166,24 @@ nav {
 
 #footer svg {
   display: flex;
-  margin-right: 20px;
+  margin-right: 10px;
+  width: 160px;
+  
 
 }
 
 #footer li {
-  right: 300px;
+  right: 100px;
 
 }
 
 #social {
-  color:#c9a401;
+ list-style-type: none;
+ 
+  
 }
 
 #social path {
   color: #227e71;
+  
 }
