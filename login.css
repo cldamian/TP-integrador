@@ -1,14 +1,27 @@
-html,
-body {
-  height: 100%;
-}
+
 
 body {
   display: flex;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  background-color: #22977a;
+  margin-top: 50px;
+}
+
+.contenedor {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.43);
+  margin: 40px;
+}
+
+.contenedor2 {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.43);
+  margin: 40px;
+  padding: 20px;
 }
 
 .form-signin {
@@ -21,7 +34,7 @@ body {
 }
 
 .form-signin input[type="email"] {
-  margin-bottom: -1px;
+  margin-bottom: 10px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -30,4 +43,8 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.regitro-actividad{
+  display: none;
 }

@@ -41,30 +41,39 @@ header {
     transform: translate(-50%, -20%);
 }
 
+
 .container h1 {
     font-size: 75px;
     font-weight: 900; 
     color:white;     
 }
 
-h2 {
+h9 {
     font-size: 30px;
     font-weight: 700; 
     color:#c9a401;
 }
 
-h3 {
+h7 {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px; 
     color:white;   
 }
 
-h4 {
+h8 {
     font-family: 'Montserrat';
     font-weight: 200;
     font-size: 16px; 
     color:white;   
+}
+
+#botton {
+    background-color: #227e71;
+    border-radius: 50px;
+    width: 50%;
+    margin-right: 300px;
+    
 }
 
 #comunicacion {
@@ -77,3 +86,10 @@ main {
 footer {
     background-color: black;
 }
+#social {
+    color:#c9a401;
+  }
+  
+  #social path {
+    color: #227e71;
+  }

@@ -10,33 +10,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
     <title>TP INTEGRADOR</title>
 </head>
 
 <body class="text-center">
+  
+  <div class="container">
+    <main class="form-signin w-100 m-auto contenedor">
+      <form>
+          <h1 class="h3 mb-3 fw-normal">Ingrese usuario</h1>
     
-<main class="form-signin w-100 m-auto">
-  <form>
-      <h1 class="h3 mb-3 fw-normal">Ingrese usuario</h1>
-
-    <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
-    </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
-
-    <div class="checkbox mb-3">
-      <label>
-        <input type="checkbox" value="remember-me"> Recordar
-      </label>
-    </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Ingresar</button>
-    <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
-  </form>
-</main>
+        <div class="form-floating">
+          <input type="email" class="form-control" id="email">
+          <label for="floatingInput">Email</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="password">
+          <label for="floatingPassword">Password</label>
+        </div>
     
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Recordar
+          </label>
+        </div>
+        <div class="w-100 btn btn-lg btn-primary" onclick="enviarDatos()">Ingresar</div>
+        <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
+      </form>
+    </main>
+
+    <div class="regitro-actividad contenedor2">
+      <h4>Registro de actividad</h4>
+      <div class="row">
+
+      <div class="col-md-6">
+        <label for="id-recibido" class="form-label">ID</label>
+        <input type="text" class="form-control" id="id-recibido" disabled />
+      </div>
+
+      <div class="col-md-6">
+        <label for="fecha-creacion" class="form-label"
+          >Fecha de ingreso</label
+        >
+        <input
+          type="text"
+          class="form-control"
+          id="fecha-creacion"
+          disabled
+        />
+
+      </div>
+      </div>
+      <div class="row">
+
+      <div class="col-md-6">
+        <label for="nombre-recibido" class="form-label"
+          >Email</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="nombre-recibido"
+          disabled
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="trabajo-recibido" class="form-label"
+          >Password</label
+        >
+        <input
+          type="password"
+          class="form-control"
+          id="trabajo-recibido"
+          disabled
+        />
+      </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
