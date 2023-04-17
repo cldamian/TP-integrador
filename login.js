@@ -1,10 +1,19 @@
 function enviarDatos() {
     let email = $("#email").val();
+    if(email.length == 0) {
+        alert('No has escrito nada en el usuario');
+        return;
+      }
     let password = $("#password").val();
+    if(password.length == 0) {
+        alert('No has escrito nada en password');
+        return;
+      }
     console.log(email);
     console.log(password);
 
-    $.ajax({
+    
+     $.ajax({
         method: "POST",
         url: "https://reqres.in/api/users",
         data: {

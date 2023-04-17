@@ -20,6 +20,7 @@ $('#firstName').on('change', function(e) {
 
 $('#lastName').on('change', function(e) {
     $('#enteredLastName').text(e.target.value || 'Ji-Hun C');
+    
 });
 
 $('#phoneNumber').on('change', function(e) {
